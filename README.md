@@ -36,16 +36,16 @@ These results indicate a high degree of accuracy and validate the potential of t
 ## Repository Structure
 .
 ├── R/
-│ ├── 01_data_processing.R # Script for RGB to HSI conversion and data cleaning
-│ └── 02_fda_analysis.R # Script for FPCA, regression modeling, and evaluation
+│   ├── 01_data_processing.R     
+│   └── 02_fda_analysis.R        
 │
 ├── data/
-│ └── (Raw data not included due to patient privacy)
+│   └── (Raw data not included due to patient privacy)
 │
 ├── output/
-│ └── (Folder for generated plots and results)
+│   └── (Folder for generated plots and results)
 │
-└── README.md # This file
+└── README.md     
 
 
 ## How to Reproduce the Analysis
@@ -76,4 +76,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 ## Author & Acknowledgments
 
 *   **Author:** [Jospeh Kim]
-*   This work was completed as part of a Master of Science thesis at Yonsei University. I would like to thank my advisors and the staff at Emory University Hospital for their invaluable support.
+*   This work was completed as part of a Master of Science thesis at Yonsei University. I would like to thank my advisors at Yonsei University and the staff at Emory University Hospital for their invaluable support.
